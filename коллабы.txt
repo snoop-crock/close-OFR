@@ -1,0 +1,8 @@
+Анализ Dataset
+https://colab.research.google.com/drive/1-YPfxAyUl_RNT0KTqgJe9XAjDZottddp?usp=sharing
+
+Баловался с MLP regressor
+https://colab.research.google.com/drive/1cZDT56pIWpsjXBvqFvQyZ2Z4VGHFYH2M?usp=sharing
+
+Самая первая версия CatBoostRegressor
+https://colab.research.google.com/drive/16Kr-l4G2ZolYhb2uE8vVVI1-sWJpEH4y?usp=sharing
