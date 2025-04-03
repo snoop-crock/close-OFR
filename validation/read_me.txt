@@ -37,6 +37,13 @@ MAE: 0.0377 (73.13%)
 R²: -0.1613
 Spearman Correlation: -0.1308
 
+5. forest_normalize (1000 trials optuna) -нормализация по генерациям, Scr, temp не нормализовывался - удалены Lgs и minL1
+Final Model Metrics:
+MSE: 0.0008 (28.69%)
+RMSE: 0.0286 (53.57%)
+MAE: 0.0234 (43.81%)
+R²: 0.3118
+Spearman Correlation: 0.5470
 
 их вся сравнил с базовым forest
 
