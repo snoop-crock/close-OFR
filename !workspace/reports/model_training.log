@@ -1,0 +1,474 @@
+2025-04-07 02:43:24,669 - utils.data_processor - ERROR - Ошибка проверки путей: Файл данных не найден: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+2025-04-07 02:43:24,669 - __main__ - CRITICAL - Ошибка в основном процессе: Файл данных не найден: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 16, in main
+    processor = DataProcessor()
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\utils\data_processor.py", line 22, in __init__
+    self._validate_paths()
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\utils\data_processor.py", line 28, in _validate_paths
+    raise FileNotFoundError(
+FileNotFoundError: Файл данных не найден: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+2025-04-07 02:51:03,271 - __main__ - CRITICAL - Ошибка в основном процессе: Файл данных не найден: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+Пожалуйста, поместите файл 'Normalize_avg.xlsx' в папку: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 13, in main
+    Config.setup_dirs()
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\config.py", line 60, in setup_dirs
+    raise FileNotFoundError(
+FileNotFoundError: Файл данных не найден: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+Пожалуйста, поместите файл 'Normalize_avg.xlsx' в папку: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data
+2025-04-07 02:52:35,374 - __main__ - CRITICAL - Ошибка в основном процессе: 'DataProcessor' object has no attribute 'load_and_preprocess_data'
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 17, in main
+    X, y, cat_features = processor.load_and_preprocess_data()
+AttributeError: 'DataProcessor' object has no attribute 'load_and_preprocess_data'
+2025-04-07 02:56:35,687 - __main__ - CRITICAL - Ошибка в основном процессе: 'DataProcessor' object has no attribute 'load_and_preprocess_data'
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 17, in main
+    X, y, cat_features = processor.load_and_preprocess_data()
+AttributeError: 'DataProcessor' object has no attribute 'load_and_preprocess_data'
+2025-04-07 03:02:28,390 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 03:02:28,771 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 03:02:28,771 - __main__ - CRITICAL - Ошибка в основном процессе: not enough values to unpack (expected 3, got 2)
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 17, in main
+    X, y, cat_features = processor.load_data()
+ValueError: not enough values to unpack (expected 3, got 2)
+2025-04-07 03:08:25,636 - __main__ - CRITICAL - Ошибка в основном процессе: DataProcessor.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 16, in main
+    processor = DataProcessor(Config)
+TypeError: DataProcessor.__init__() takes 1 positional argument but 2 were given
+2025-04-07 03:12:41,521 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 03:12:41,936 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 03:12:41,937 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 03:12:41,943 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 03:12:41,944 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 03:12:41,946 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 03:12:41,946 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 03:12:41,947 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 03:12:41,947 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 03:12:41,947 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 03:12:41,948 - __main__ - CRITICAL - Ошибка в основном процессе: local variable 'trainer' referenced before assignment
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 27, in main
+    cv_results = trainer.cross_validate(X, y, cat_features, best_params)
+UnboundLocalError: local variable 'trainer' referenced before assignment
+2025-04-07 03:18:08,736 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 03:18:09,122 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 03:18:09,132 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 03:18:09,132 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 03:18:09,132 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 03:18:09,139 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 03:18:09,139 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 03:18:09,140 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 03:18:09,140 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 03:18:09,140 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 03:18:09,141 - __main__ - CRITICAL - Ошибка в основном процессе: ModelTrainer.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 28, in main
+    trainer = ModelTrainer(config)
+TypeError: ModelTrainer.__init__() takes 1 positional argument but 2 were given
+2025-04-07 03:22:46,495 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 03:22:46,912 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 03:22:46,914 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 03:22:46,917 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 03:22:46,917 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 03:22:46,921 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 03:22:46,921 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 03:22:46,922 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 03:22:46,922 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 03:22:46,922 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 03:22:46,923 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-07 03:28:06,635 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-07 03:28:06,635 - model_training - INFO -                iterations: 4371
+2025-04-07 03:28:06,635 - model_training - INFO -             learning_rate: 0.20218499516556748
+2025-04-07 03:28:06,636 - model_training - INFO -                     depth: 9
+2025-04-07 03:28:06,636 - model_training - INFO -               l2_leaf_reg: 0.24810409748678125
+2025-04-07 03:28:06,636 - model_training - INFO -       bagging_temperature: 1.5601864044243652
+2025-04-07 03:28:06,637 - model_training - INFO -           random_strength: 1.5607892088416901
+2025-04-07 03:28:06,637 - model_training - INFO -                 task_type: GPU
+2025-04-07 03:28:06,637 - model_training - INFO -                   devices: 0
+2025-04-07 03:28:06,638 - model_training - INFO -                   verbose: 100
+2025-04-07 03:28:06,638 - model_training - INFO -       allow_writing_files: False
+2025-04-07 03:28:06,638 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-07 03:28:06,640 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 03:28:06,641 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,641 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 76, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 46, in _create_pool
+    return Pool(data=X, label=y, cat_features=cat_features, feature_names=feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,645 - model_training - ERROR - Ошибка в фолде 1: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,647 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 03:28:06,648 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,648 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 76, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 46, in _create_pool
+    return Pool(data=X, label=y, cat_features=cat_features, feature_names=feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,650 - model_training - ERROR - Ошибка в фолде 2: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,652 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 03:28:06,653 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,653 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 76, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 46, in _create_pool
+    return Pool(data=X, label=y, cat_features=cat_features, feature_names=feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,654 - model_training - ERROR - Ошибка в фолде 3: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,656 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 03:28:06,656 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,657 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 76, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 46, in _create_pool
+    return Pool(data=X, label=y, cat_features=cat_features, feature_names=feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,658 - model_training - ERROR - Ошибка в фолде 4: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,659 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 03:28:06,659 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,660 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 76, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 46, in _create_pool
+    return Pool(data=X, label=y, cat_features=cat_features, feature_names=feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,661 - model_training - ERROR - Ошибка в фолде 5: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 03:28:06,686 - model_training - INFO - Результаты кросс-валидации:
+2025-04-07 03:28:06,686 - model_training - INFO -       RMSE: nan ± nan
+2025-04-07 03:28:06,687 - model_training - INFO -        MAE: nan ± nan
+2025-04-07 03:28:06,687 - model_training - INFO -         R2: nan ± nan
+2025-04-07 03:28:06,688 - model_training - INFO -   SPEARMAN: nan ± nan
+2025-04-07 03:28:06,688 - __main__ - INFO - CV Results - RMSE: nan ± nan
+2025-04-07 03:28:06,689 - __main__ - INFO - Spearman: nan ± nan
+2025-04-07 03:28:06,689 - __main__ - CRITICAL - Ошибка в основном процессе: 'ModelTrainer' object has no attribute 'train_final_model'
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 41, in main
+    final_model = trainer.train_final_model(
+AttributeError: 'ModelTrainer' object has no attribute 'train_final_model'
+2025-04-07 05:05:13,305 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 05:05:13,695 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 05:05:13,695 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 05:05:13,695 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 05:05:13,695 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 05:05:13,695 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 05:05:13,695 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 05:05:13,695 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 05:05:13,695 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 05:05:13,705 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 05:05:13,705 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-07 05:10:30,857 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-07 05:10:30,857 - model_training - INFO -                iterations: 4371
+2025-04-07 05:10:30,857 - model_training - INFO -             learning_rate: 0.20218499516556748
+2025-04-07 05:10:30,858 - model_training - INFO -                     depth: 9
+2025-04-07 05:10:30,858 - model_training - INFO -               l2_leaf_reg: 0.24810409748678125
+2025-04-07 05:10:30,858 - model_training - INFO -       bagging_temperature: 1.5601864044243652
+2025-04-07 05:10:30,859 - model_training - INFO -           random_strength: 1.5607892088416901
+2025-04-07 05:10:30,859 - model_training - INFO -                 task_type: GPU
+2025-04-07 05:10:30,859 - model_training - INFO -                   devices: 0
+2025-04-07 05:10:30,860 - model_training - INFO -                   verbose: 100
+2025-04-07 05:10:30,860 - model_training - INFO -       allow_writing_files: False
+2025-04-07 05:10:30,861 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-07 05:10:30,863 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,863 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,864 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 86, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 51, in _create_pool
+    return Pool(
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,869 - model_training - ERROR - Ошибка в фолде 1: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,870 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,871 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,872 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 86, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 51, in _create_pool
+    return Pool(
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,873 - model_training - ERROR - Ошибка в фолде 2: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,875 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,876 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,876 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 86, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 51, in _create_pool
+    return Pool(
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,878 - model_training - ERROR - Ошибка в фолде 3: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,880 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,880 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,881 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 86, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 51, in _create_pool
+    return Pool(
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,882 - model_training - ERROR - Ошибка в фолде 4: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,884 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,884 - model_training - ERROR - Ошибка создания Pool: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,885 - model_training - ERROR - Ошибка при обучении модели: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 86, in train_model
+    train_pool = self._create_pool(X_train, y_train, cat_features)
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\model_training.py", line 51, in _create_pool
+    return Pool(
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 855, in __init__
+    self._init(data, label, cat_features, text_features, embedding_features, embedding_features_data, pairs, graph, weight,
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 1438, in _init
+    cat_features = _get_features_indices(cat_features, feature_names)
+  File "C:\Users\nikit\AppData\Local\Programs\Python\Python310\lib\site-packages\catboost\core.py", line 316, in _get_features_indices
+    raise CatBoostError("feature names should be a sequence, but got " + repr(features))
+_catboost.CatBoostError: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,886 - model_training - ERROR - Ошибка в фолде 5: feature names should be a sequence, but got {'iterations': 4371, 'learning_rate': 0.20218499516556748, 'depth': 9, 'l2_leaf_reg': 0.24810409748678125, 'bagging_temperature': 1.5601864044243652, 'random_strength': 1.5607892088416901, 'task_type': 'GPU', 'devices': '0', 'verbose': 100, 'allow_writing_files': False}
+2025-04-07 05:10:30,958 - model_training - INFO - Результаты кросс-валидации:
+2025-04-07 05:10:30,958 - model_training - INFO -       RMSE: nan ± nan
+2025-04-07 05:10:30,958 - model_training - INFO -        MAE: nan ± nan
+2025-04-07 05:10:30,959 - model_training - INFO -         R2: nan ± nan
+2025-04-07 05:10:30,959 - model_training - INFO -   SPEARMAN: nan ± nan
+2025-04-07 05:10:30,959 - __main__ - INFO - CV Results - RMSE: nan ± nan
+2025-04-07 05:10:30,960 - __main__ - INFO - Spearman: nan ± nan
+2025-04-07 05:10:30,960 - model_training - INFO - Обучение финальной модели...
+2025-04-07 05:10:30,960 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:10:30,963 - model_training - INFO - Используется валидационный набор: 53 образцов
+2025-04-07 05:14:50,965 - model_training - INFO - Обучение модели успешно завершено
+2025-04-07 05:14:50,966 - model_training - INFO - Лучшая итерация: 1
+2025-04-07 05:14:50,968 - model_training - INFO - Лучший score: {'learn': {'RMSE': 0.006251160842377185}, 'validation': {'RMSE': 0.0342997158013661}}
+2025-04-07 05:14:50,969 - report_generator - INFO - Директория для отчетов: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports
+2025-04-07 05:14:50,970 - model_training - INFO - Оценка качества модели...
+2025-04-07 05:14:50,987 - model_training - INFO - Метрики качества:
+2025-04-07 05:14:50,988 - model_training - INFO -       RMSE: 0.0343
+2025-04-07 05:14:50,988 - model_training - INFO -        MAE: 0.0289
+2025-04-07 05:14:50,988 - model_training - INFO -         R2: 0.0463
+2025-04-07 05:14:50,989 - model_training - INFO -   Spearman: 0.0633
+2025-04-07 05:14:50,989 - __main__ - CRITICAL - Ошибка в основном процессе: ModelTrainer.get_feature_importance() takes from 1 to 3 positional arguments but 5 were given
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 52, in main
+    feature_importance = trainer.get_feature_importance(
+TypeError: ModelTrainer.get_feature_importance() takes from 1 to 3 positional arguments but 5 were given
+2025-04-07 05:23:32,229 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 05:23:32,616 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 05:23:32,616 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 05:23:32,616 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 05:23:32,616 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 05:23:32,626 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 05:23:32,627 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 05:23:32,627 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 05:23:32,627 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 05:23:32,628 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 05:23:32,628 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-07 05:28:44,527 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-07 05:28:44,528 - model_training - INFO -                iterations: 4371
+2025-04-07 05:28:44,528 - model_training - INFO -             learning_rate: 0.20218499516556748
+2025-04-07 05:28:44,528 - model_training - INFO -                     depth: 9
+2025-04-07 05:28:44,529 - model_training - INFO -               l2_leaf_reg: 0.24810409748678125
+2025-04-07 05:28:44,529 - model_training - INFO -       bagging_temperature: 1.5601864044243652
+2025-04-07 05:28:44,530 - model_training - INFO -           random_strength: 1.5607892088416901
+2025-04-07 05:28:44,530 - model_training - INFO -                 task_type: GPU
+2025-04-07 05:28:44,530 - model_training - INFO -                   devices: 0
+2025-04-07 05:28:44,530 - model_training - INFO -                   verbose: 100
+2025-04-07 05:28:44,531 - model_training - INFO -       allow_writing_files: False
+2025-04-07 05:28:44,531 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-07 05:33:14,602 - model_training - INFO - Fold 1: RMSE=0.0335, MAE=0.0275, R2=0.0887, Spearman=0.2179
+2025-04-07 05:38:29,582 - model_training - INFO - Fold 2: RMSE=0.0453, MAE=0.0343, R2=0.0743, Spearman=0.3167
+2025-04-07 05:44:40,650 - model_training - INFO - Fold 3: RMSE=0.0263, MAE=0.0221, R2=0.3141, Spearman=0.4812
+2025-04-07 05:49:27,903 - model_training - INFO - Fold 4: RMSE=0.0334, MAE=0.0268, R2=-0.0690, Spearman=-0.0635
+2025-04-07 05:57:34,481 - model_training - INFO - Fold 5: RMSE=0.0288, MAE=0.0234, R2=0.3107, Spearman=0.4315
+2025-04-07 05:57:34,482 - model_training - INFO - Результаты кросс-валидации:
+2025-04-07 05:57:34,482 - model_training - INFO -       RMSE: 0.0335 ± 0.0065
+2025-04-07 05:57:34,483 - model_training - INFO -        MAE: 0.0268 ± 0.0042
+2025-04-07 05:57:34,483 - model_training - INFO -         R2: 0.1438 ± 0.1483
+2025-04-07 05:57:34,483 - model_training - INFO -   SPEARMAN: 0.2768 ± 0.1932
+2025-04-07 05:57:34,488 - __main__ - INFO - CV Results - RMSE: 0.0335 ± 0.0065
+2025-04-07 05:57:34,488 - __main__ - INFO - Spearman: 0.2768 ± 0.1932
+2025-04-07 05:57:34,488 - model_training - INFO - Обучение финальной модели...
+2025-04-07 05:57:34,488 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 05:57:34,492 - model_training - INFO - Используется валидационный набор: 53 образцов
+2025-04-07 06:01:53,616 - model_training - INFO - Обучение модели успешно завершено
+2025-04-07 06:01:53,617 - model_training - INFO - Лучшая итерация: 1
+2025-04-07 06:01:53,619 - model_training - INFO - Лучший score: {'learn': {'RMSE': 0.006251160842377185}, 'validation': {'RMSE': 0.0342997158013661}}
+2025-04-07 06:01:53,620 - report_generator - INFO - Директория для отчетов: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports
+2025-04-07 06:01:53,620 - model_training - INFO - Оценка качества модели...
+2025-04-07 06:01:53,627 - model_training - INFO - Метрики качества:
+2025-04-07 06:01:53,628 - model_training - INFO -       RMSE: 0.0343
+2025-04-07 06:01:53,628 - model_training - INFO -        MAE: 0.0289
+2025-04-07 06:01:53,629 - model_training - INFO -         R2: 0.0463
+2025-04-07 06:01:53,629 - model_training - INFO -   Spearman: 0.0633
+2025-04-07 06:01:53,629 - model_training - INFO - Получение важности признаков (тип: shap)...
+2025-04-07 06:01:53,684 - model_training - INFO - Топ-5 важных признаков:
+2025-04-07 06:01:53,689 - model_training - INFO - feature  importance
+   hgvk    0.002405
+ kHmin2    0.001751
+    kH2    0.001570
+    kH1    0.001444
+ kHmin1    0.000544
+2025-04-07 06:01:53,690 - __main__ - CRITICAL - Ошибка в основном процессе: 'ReportGenerator' object has no attribute 'save_all_results'
+Traceback (most recent call last):
+  File "f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\cat_boost cataloge\main.py", line 63, in main
+    reporter.save_all_results(
+AttributeError: 'ReportGenerator' object has no attribute 'save_all_results'
+2025-04-07 06:12:29,789 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 06:12:30,199 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 06:12:30,200 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 06:12:30,204 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 06:12:30,204 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 06:12:30,205 - utils.data_processor - INFO - Разделение завершено. Train: 209 записей, Test: 53 записей
+2025-04-07 06:12:30,206 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 06:12:30,206 - __main__ - INFO - Размер обучающей выборки: 209
+2025-04-07 06:12:30,206 - __main__ - INFO - Размер валидационной выборки: 53
+2025-04-07 06:12:30,207 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 06:12:30,207 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-07 06:17:38,225 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-07 06:17:38,225 - model_training - INFO -                iterations: 4371
+2025-04-07 06:17:38,226 - model_training - INFO -             learning_rate: 0.20218499516556748
+2025-04-07 06:17:38,226 - model_training - INFO -                     depth: 9
+2025-04-07 06:17:38,227 - model_training - INFO -               l2_leaf_reg: 0.24810409748678125
+2025-04-07 06:17:38,227 - model_training - INFO -       bagging_temperature: 1.5601864044243652
+2025-04-07 06:17:38,227 - model_training - INFO -           random_strength: 1.5607892088416901
+2025-04-07 06:17:38,228 - model_training - INFO -                 task_type: GPU
+2025-04-07 06:17:38,228 - model_training - INFO -                   devices: 0
+2025-04-07 06:17:38,228 - model_training - INFO -                   verbose: 100
+2025-04-07 06:17:38,228 - model_training - INFO -       allow_writing_files: False
+2025-04-07 06:17:38,229 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-07 06:21:31,276 - model_training - INFO - Fold 1: RMSE=0.0335, MAE=0.0275, R2=0.0887, Spearman=0.2179
+2025-04-07 06:25:46,357 - model_training - INFO - Fold 2: RMSE=0.0453, MAE=0.0343, R2=0.0743, Spearman=0.3167
+2025-04-07 06:29:49,357 - model_training - INFO - Fold 3: RMSE=0.0263, MAE=0.0221, R2=0.3141, Spearman=0.4812
+2025-04-07 06:34:03,066 - model_training - INFO - Fold 4: RMSE=0.0334, MAE=0.0268, R2=-0.0690, Spearman=-0.0635
+2025-04-07 06:38:02,724 - model_training - INFO - Fold 5: RMSE=0.0288, MAE=0.0234, R2=0.3107, Spearman=0.4315
+2025-04-07 06:38:02,725 - model_training - INFO - Результаты кросс-валидации:
+2025-04-07 06:38:02,726 - model_training - INFO -       RMSE: 0.0335 ± 0.0065
+2025-04-07 06:38:02,726 - model_training - INFO -        MAE: 0.0268 ± 0.0042
+2025-04-07 06:38:02,726 - model_training - INFO -         R2: 0.1438 ± 0.1483
+2025-04-07 06:38:02,727 - model_training - INFO -   SPEARMAN: 0.2768 ± 0.1932
+2025-04-07 06:38:02,730 - __main__ - INFO - CV Results - RMSE: 0.0335 ± 0.0065
+2025-04-07 06:38:02,731 - __main__ - INFO - Spearman: 0.2768 ± 0.1932
+2025-04-07 06:38:02,731 - model_training - INFO - Обучение финальной модели...
+2025-04-07 06:38:02,732 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-07 06:38:02,734 - model_training - INFO - Используется валидационный набор: 53 образцов
+2025-04-07 06:42:16,482 - model_training - INFO - Обучение модели успешно завершено
+2025-04-07 06:42:16,482 - model_training - INFO - Лучшая итерация: 1
+2025-04-07 06:42:16,485 - model_training - INFO - Лучший score: {'learn': {'RMSE': 0.006251160842377185}, 'validation': {'RMSE': 0.0342997158013661}}
+2025-04-07 06:42:16,485 - report_generator - INFO - Директория для отчетов: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports
+2025-04-07 06:42:16,486 - model_training - INFO - Оценка качества модели...
+2025-04-07 06:42:16,492 - model_training - INFO - Метрики качества:
+2025-04-07 06:42:16,493 - model_training - INFO -       RMSE: 0.0343
+2025-04-07 06:42:16,493 - model_training - INFO -        MAE: 0.0289
+2025-04-07 06:42:16,493 - model_training - INFO -         R2: 0.0463
+2025-04-07 06:42:16,494 - model_training - INFO -   Spearman: 0.0633
+2025-04-07 06:42:16,494 - model_training - INFO - Получение важности признаков (тип: shap)...
+2025-04-07 06:42:16,544 - model_training - INFO - Топ-5 важных признаков:
+2025-04-07 06:42:16,547 - model_training - INFO - feature  importance
+   hgvk    0.002405
+ kHmin2    0.001751
+    kH2    0.001570
+    kH1    0.001444
+ kHmin1    0.000544
+2025-04-07 06:42:16,548 - report_generator - INFO - Создание отчета модели в f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports\model_report.xlsx
+2025-04-07 06:42:16,673 - report_generator - INFO - Отчет успешно сохранен
+2025-04-07 06:42:16,674 - report_generator - INFO - Создание визуализаций модели...
+2025-04-07 06:42:18,787 - report_generator - INFO - Основные визуализации сохранены
+2025-04-07 06:42:18,788 - report_generator - INFO - Все отчеты успешно сохранены
+2025-04-07 06:42:18,788 - __main__ - INFO - Процесс завершен успешно!
+2025-04-07 08:41:26,770 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 08:41:35,645 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-07 08:41:36,108 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-07 08:41:36,109 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-07 08:41:36,117 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-07 08:41:36,118 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-07 08:41:36,121 - utils.data_processor - INFO - Разделение завершено. Train: 235 записей, Test: 27 записей
+2025-04-07 08:41:36,121 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-07 08:41:36,122 - __main__ - INFO - Размер обучающей выборки: 235
+2025-04-07 08:41:36,122 - __main__ - INFO - Размер валидационной выборки: 27
+2025-04-07 08:41:36,122 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-07 08:41:36,123 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-08 00:46:11,367 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-08 00:46:11,819 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-08 00:46:11,819 - utils.data_processor - INFO - Начало предобработки данных...
+2025-04-08 00:46:11,831 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков
+2025-04-08 00:46:11,832 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-08 00:46:11,837 - utils.data_processor - INFO - Разделение завершено. Train: 235 записей, Test: 27 записей
+2025-04-08 00:46:11,837 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-08 00:46:11,838 - __main__ - INFO - Размер обучающей выборки: 235
+2025-04-08 00:46:11,838 - __main__ - INFO - Размер валидационной выборки: 27
+2025-04-08 00:46:11,838 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-08 00:46:11,839 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-08 00:51:44,891 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-08 00:51:44,892 - model_training - INFO -                iterations: 8745
+2025-04-08 00:51:44,892 - model_training - INFO -             learning_rate: 0.1804941906677887
+2025-04-08 00:51:44,892 - model_training - INFO -                     depth: 11
+2025-04-08 00:51:44,893 - model_training - INFO -               l2_leaf_reg: 0.24810409748678125
+2025-04-08 00:51:44,893 - model_training - INFO -       bagging_temperature: 1.5601864044243652
+2025-04-08 00:51:44,893 - model_training - INFO -           random_strength: 1.5607892088416901
+2025-04-08 00:51:44,893 - model_training - INFO -               grow_policy: Depthwise
+2025-04-08 00:51:44,894 - model_training - INFO -                 task_type: GPU
+2025-04-08 00:51:44,894 - model_training - INFO -                   devices: 0
+2025-04-08 00:51:44,894 - model_training - INFO -                   verbose: 100
+2025-04-08 00:51:44,895 - model_training - INFO -       allow_writing_files: False
+2025-04-08 00:51:44,897 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-08 00:53:34,977 - model_training - INFO - Fold 1: RMSE=0.0343, MAE=0.0287, R2=0.0462, Spearman=0.1473
