@@ -1,0 +1,114 @@
+2025-04-08 18:07:58,077 - config - INFO - Конфигурация загружена. Данные будут браться из: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+2025-04-08 18:07:58,079 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-08 18:07:58,422 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-08 18:07:58,422 - utils.data_processor - INFO - Начало комплексной предобработки данных...
+2025-04-08 18:07:58,424 - utils.data_processor - INFO - Исходная форма данных: X=(262, 17), y=(262,)
+2025-04-08 18:07:58,429 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков: ['Scr', 'Temp']
+2025-04-08 18:07:58,429 - utils.data_processor - INFO - Форма данных после обработки: X=(262, 17), y=(262,)
+2025-04-08 18:07:58,430 - utils.data_processor - INFO - Типы признаков:
+kH1        float64
+kH2        float64
+kH3        float64
+kh_eff     float64
+h_all      float64
+ntg        float64
+hgvk       float64
+minLgwc    float64
+Vdren      float64
+Sdren      float64
+minL2      float64
+minL3      float64
+kHmin1     float64
+kHmin2     float64
+kHmin3     float64
+Scr         object
+Temp        object
+dtype: object
+2025-04-08 18:07:58,431 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-08 18:07:58,432 - utils.data_processor - INFO - Разделение завершено. Train: 235 записей, Test: 27 записей
+2025-04-08 18:07:58,433 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-08 18:07:58,433 - __main__ - INFO - Размер обучающей выборки: 235
+2025-04-08 18:07:58,433 - __main__ - INFO - Размер валидационной выборки: 27
+2025-04-08 18:07:58,433 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-08 18:07:58,433 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-09 09:28:27,256 - config - INFO - Конфигурация загружена. Данные будут браться из: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx
+2025-04-09 09:28:27,257 - utils.data_processor - INFO - Загрузка данных из f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\data\Normalize_avg.xlsx...
+2025-04-09 09:28:27,681 - utils.data_processor - INFO - Успешно загружено 262 записей, 17 признаков
+2025-04-09 09:28:27,682 - utils.data_processor - INFO - Начало комплексной предобработки данных...
+2025-04-09 09:28:27,682 - utils.data_processor - INFO - Исходная форма данных: X=(262, 17), y=(262,)
+2025-04-09 09:28:27,691 - utils.data_processor - INFO - Обнаружено 2 категориальных признаков: ['Scr', 'Temp']
+2025-04-09 09:28:27,691 - utils.data_processor - INFO - Форма данных после обработки: X=(262, 17), y=(262,)
+2025-04-09 09:28:27,692 - utils.data_processor - INFO - Типы признаков:
+kH1        float64
+kH2        float64
+kH3        float64
+kh_eff     float64
+h_all      float64
+ntg        float64
+hgvk       float64
+minLgwc    float64
+Vdren      float64
+Sdren      float64
+minL2      float64
+minL3      float64
+kHmin1     float64
+kHmin2     float64
+kHmin3     float64
+Scr         object
+Temp        object
+dtype: object
+2025-04-09 09:28:27,693 - utils.data_processor - INFO - Разделение данных на train/test...
+2025-04-09 09:28:27,695 - utils.data_processor - INFO - Разделение завершено. Train: 235 записей, Test: 27 записей
+2025-04-09 09:28:27,696 - __main__ - INFO - Данные успешно загружены и обработаны
+2025-04-09 09:28:27,696 - __main__ - INFO - Размер обучающей выборки: 235
+2025-04-09 09:28:27,696 - __main__ - INFO - Размер валидационной выборки: 27
+2025-04-09 09:28:27,696 - __main__ - INFO - Категориальные признаки: [15, 16]
+2025-04-09 09:28:27,697 - model_training - INFO - Начало оптимизации гиперпараметров с помощью Optuna...
+2025-04-09 09:33:01,457 - model_training - INFO - Оптимизация завершена. Лучшие параметры:
+2025-04-09 09:33:01,457 - model_training - INFO - Начало кросс-валидации (5 фолдов)...
+2025-04-09 09:34:46,498 - model_training - INFO - Fold 1: MSE=0.0012, RMSE=0.0343, MAE=0.0287, R2=0.0462, Spearman=0.1473
+2025-04-09 09:36:39,427 - model_training - INFO - Fold 2: MSE=0.0022, RMSE=0.0471, MAE=0.0361, R2=0.0006, Spearman=0.0920
+2025-04-09 09:38:21,282 - model_training - INFO - Fold 3: MSE=0.0008, RMSE=0.0278, MAE=0.0235, R2=0.2296, Spearman=0.4714
+2025-04-09 09:40:39,157 - model_training - INFO - Fold 4: MSE=0.0011, RMSE=0.0334, MAE=0.0264, R2=-0.0690, Spearman=-0.0072
+2025-04-09 09:42:18,408 - model_training - INFO - Fold 5: MSE=0.0010, RMSE=0.0311, MAE=0.0257, R2=0.1987, Spearman=0.3481
+2025-04-09 09:42:18,409 - model_training - INFO - Результаты кросс-валидации:
+2025-04-09 09:42:18,409 - model_training - INFO -        MSE: 0.0013 ± 0.0005
+2025-04-09 09:42:18,409 - model_training - INFO -       RMSE: 0.0347 ± 0.0066
+2025-04-09 09:42:18,410 - model_training - INFO -        MAE: 0.0281 ± 0.0043
+2025-04-09 09:42:18,410 - model_training - INFO -         R2: 0.0812 ± 0.1150
+2025-04-09 09:42:18,410 - model_training - INFO -   SPEARMAN: 0.2103 ± 0.1746
+2025-04-09 09:42:18,412 - __main__ - INFO - CV Results - RMSE: 0.0347 ± 0.0066
+2025-04-09 09:42:18,413 - __main__ - INFO - Spearman: 0.2103 ± 0.1746
+2025-04-09 09:42:18,413 - model_training - INFO - Обучение финальной модели...
+2025-04-09 09:42:18,413 - model_training - INFO - Начало обучения модели CatBoost...
+2025-04-09 09:42:18,414 - model_training - INFO - Используется валидационный набор: 27 образцов
+2025-04-09 09:43:57,176 - model_training - INFO - Обучение модели успешно завершено
+2025-04-09 09:43:57,176 - model_training - INFO - Лучшая итерация: 12
+2025-04-09 09:43:57,176 - model_training - INFO - Лучший score: {'learn': {'RMSE': 1.0049497216334502e-08}, 'validation': {'RMSE': 0.02827267641531312}}
+2025-04-09 09:43:57,181 - model_training - INFO - Модель сохранена в f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports\final_model.cbm
+2025-04-09 09:43:57,182 - report_generator - INFO - Директория для отчетов: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports
+2025-04-09 09:43:57,182 - model_training - INFO - Оценка качества модели...
+2025-04-09 09:43:57,190 - model_training - INFO - Метрики качества:
+2025-04-09 09:43:57,190 - model_training - INFO -        MSE: 0.0008
+2025-04-09 09:43:57,190 - model_training - INFO -       RMSE: 0.0283
+2025-04-09 09:43:57,190 - model_training - INFO -        MAE: 0.0230
+2025-04-09 09:43:57,191 - model_training - INFO -         R2: 0.3286
+2025-04-09 09:43:57,191 - model_training - INFO -   MedianAE: 0.0165
+2025-04-09 09:43:57,191 - model_training - INFO -       MAPE: 88.5340
+2025-04-09 09:43:57,191 - model_training - INFO -   Spearman: 0.4487
+2025-04-09 09:43:57,192 - model_training - INFO - Получение важности признаков (тип: shap)...
+2025-04-09 09:43:57,275 - model_training - INFO - Топ-5 важных признаков:
+2025-04-09 09:43:57,279 - model_training - INFO - feature  importance
+ kHmin2    0.007943
+   hgvk    0.006110
+    kH3    0.004466
+    kH2    0.003679
+    kH1    0.002829
+2025-04-09 09:43:57,279 - report_generator - INFO - Создание отчета модели в f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports\model_report.xlsx
+2025-04-09 09:43:57,376 - report_generator - INFO - Отчет успешно сохранен
+2025-04-09 09:43:59,808 - report_generator - INFO - График корреляции Спирмена сохранен (ρ = 0.843)
+2025-04-09 09:44:08,630 - report_generator - INFO - График истории оптимизации сохранен в f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports\optimization_history.html
+2025-04-09 09:44:09,053 - report_generator - WARNING - Не удалось сохранить PDP plots: bad operand type for unary -: 'WindowsPath'
+2025-04-09 09:44:09,360 - report_generator - INFO - Полный HTML отчет сохранен: f:\other files\Никитины работы\Honors Track\!!!!! NEURAL NETWORK\WF OPTIMIZER\public\!workspace\reports\model_report.html
+2025-04-09 09:44:09,360 - report_generator - INFO - Все отчеты успешно сохранены
+2025-04-09 09:44:09,360 - __main__ - INFO - Процесс завершен успешно!
